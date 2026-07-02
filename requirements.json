@@ -1,0 +1,42 @@
+{
+  "project_name": "منصة اختبارات إلكترونية مع تصحيح تلقائي",
+  "project_type": "education",
+  "color_palette": "emerald-600 and teal-500",
+  "modules": [
+    "مقررات",
+    "طلاب",
+    "مدرسون"
+  ],
+  "pages": [
+    "index",
+    "login",
+    "register",
+    "list_مقررات",
+    "list_طلاب",
+    "list_مدرسون",
+    "create_مقررات",
+    "create_طلاب",
+    "create_مدرسون"
+  ],
+  "permissions": {
+    "guest": [
+      "login",
+      "register"
+    ],
+    "user": [
+      "index",
+      "list_مقررات",
+      "list_طلاب",
+      "list_مدرسون"
+    ],
+    "admin": [
+      "index",
+      "list_مقررات",
+      "list_طلاب",
+      "list_مدرسون",
+      "create_مقررات",
+      "create_طلاب",
+      "create_مدرسون"
+    ]
+  }
+}
